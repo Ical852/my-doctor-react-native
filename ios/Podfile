@@ -12,6 +12,8 @@ target 'MyDoctor' do
     :hermes_enabled => false
   )
 
+  pod 'RNDeviceInfo', :path => '../node_modules/react-native-device-info'
+
   target 'MyDoctorTests' do
     inherit! :complete
     # Pods for testing
